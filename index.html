@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>DEMO</title>
+</head>
+<body>
+    <h1>Welcome to Givendarian Website.</h1>
+    <h2>MENU</h2>
+    <div class="menu">
+        <a href="#">HOME</a>
+        <a href="#">RECIPES</a>
+        <a href="#">CONTACT</a>
+       <nav>
+        <a href="#" class="login">LOGIN</a>
+        <br><br>
+        <a href="#" class="signup">SIGNUP</a>
+       </nav>
+    </div>
+    <h1>Simple Cake Recipes</h1>
+    <ol>
+        <li>1 cup of white sugar</li>
+        <li>0.5 <span>cup</span> of butter</li>
+        <li>1 <span>pinch</span> of salt</li>
+        <li>1.5 teaspoons of baking powder</li>
+        <li>2 teaspoons vanilla extract</li>
+    </ol>
+    <p>To get the full recipe,</p>
+    <div class="dip">
+        <button type="button" onclick="Shownotification()">Subscribe</button>
+        <script>
+            function Shownotification() {
+                alert("You have been Subscribed successfully")
+            }
+        </script>
+        <br><br>
+        <p style="color: lightblue; font-family: 'Times New Roman', Times, serif;">I already have an account</p>
+        <br>
+        <button id="myBtn" type="button">LOGIN</button>
+        <script>
+            const myBtn = document.getElementById("myBtn");
+            myBtn.addEventListener("click", function (e) {
+               const name = prompt("What is your name");
+               
+               document.body.innerHTML = "<h1>Welcome, " + name + "!</h1>"; 
+
+               alert("Welcome, citizen. you will be redirected to another website.")
+            });
+        </script>
+    </div>
+
+</body>
+</html>

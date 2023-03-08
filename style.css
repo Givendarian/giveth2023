@@ -1,0 +1,43 @@
+span {
+    color: rgb(0, 245, 163);
+    background-color: rgba(255, 255, 255, 0.788);
+}
+
+.dip {
+    text-align: center;
+}
+
+button{
+    background: transparent;
+    color: darkblue;
+    width: 200px;
+    height: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.menu {
+    border: solid;
+    border-color: blue;
+    border-radius: 10px;
+    width: 1000px;
+    height: 50px;
+    background-color: lightgreen;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+nav {
+    padding-left: 1200px;   
+}
+.login {
+    border: solid;
+    border-color: orangered;
+    border-radius: 40px;
+    background-color: yellow;
+}
+.signup {
+    background-color: yellow;
+    border: solid;
+    border-color: orangered;
+    border-radius: 40px;
+}
